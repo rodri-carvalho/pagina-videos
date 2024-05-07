@@ -1,0 +1,80 @@
+.main {
+    display: grid;
+    grid-template-columns: 595px 270px;
+    background-color: #F7F7F7;
+    width: 900px;
+}
+
+.main .video {
+    margin-top: 33px;
+    margin-left: 35px;
+    margin-bottom: 19px;
+}
+
+.main .video .video-player {
+    width: 543px;
+    height: 217px;
+    background-color: #C4C4C4;
+    margin-bottom: 12px;
+}
+
+.main .video .video-info h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.main .video .video-info .views {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+
+.main .video .video-info .description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.main .suggestions .ad {
+    width: 270px;
+    height: 56px;
+    background-color: #C4C4C4;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.main .suggestions .video1,
+.main .suggestions .video2,
+.main .suggestions .video3 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.main .suggestions .videos h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.main .suggestions .videos p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.main .suggestions .video1-thumb,
+.main .suggestions .video2-thumb,
+.main .suggestions .video3-thumb {
+    width: 101px;
+    height: 71px;
+    background-color: #C4C4C4;
+}
+
+.main .suggestions .videos .video1-info,
+.main .suggestions .videos .video2-info,
+.main .suggestions .videos .video3-info {
+    margin-left: 4px;
+}
